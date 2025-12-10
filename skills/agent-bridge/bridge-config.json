@@ -1,0 +1,66 @@
+{
+  "user_preferences": {
+    "content_detail_level": "standard",
+    "information_organization": "timeline",
+    "collaboration_style": "professional",
+    "automation_level": "semi_auto"
+  },
+  "agent_preferences": {
+    "youmind": {
+      "preferred_focus": ["inspiration", "connections", "possibilities"],
+      "content_style": "exploratory",
+      "detail_preference": "contextual"
+    },
+    "chatgpt": {
+      "preferred_focus": ["analysis", "details", "implementation"],
+      "content_style": "structured",
+      "detail_preference": "comprehensive"
+    },
+    "echo": {
+      "preferred_focus": ["emotional", "cognitive", "growth"],
+      "content_style": "supportive",
+      "detail_preference": "insightful"
+    },
+    "coachA": {
+      "preferred_focus": ["priorities", "decisions", "constraints"],
+      "content_style": "strategic",
+      "detail_preference": "actionable"
+    },
+    "coachB": {
+      "preferred_focus": ["execution", "planning", "resources"],
+      "content_style": "practical",
+      "detail_preference": "stepwise"
+    },
+    "coachC": {
+      "preferred_focus": ["understanding", "models", "insights"],
+      "content_style": "analytical",
+      "detail_preference": "deep"
+    }
+  },
+  "collaboration_scenarios": {
+    "technical": {
+      "key_elements": ["progress", "challenges", "technical_details", "next_steps"],
+      "success_metrics": ["technical_clarity", "actionability", "completeness"]
+    },
+    "creative": {
+      "key_elements": ["inspiration_source", "possibilities", "connections", "directions"],
+      "success_metrics": ["novelty", "breadth", "actionable_insights"]
+    },
+    "emotional": {
+      "key_elements": ["emotional_state", "support_needs", "growth_opportunities"],
+      "success_metrics": ["empathy", "insightfulness", "supportiveness"]
+    },
+    "product_requirements": {
+      "key_elements": ["user_needs", "constraints", "success_criteria", "tradeoffs"],
+      "success_metrics": ["clarity", "completeness", "feasibility"]
+    }
+  },
+  "security_settings": {
+    "auto_authorization": false,
+    "information_boundary": "user_explicit",
+    "privacy_protection": "high",
+    "audit_trail": true
+  },
+  "version": "1.0",
+  "last_updated": "2025-01-09"
+}
