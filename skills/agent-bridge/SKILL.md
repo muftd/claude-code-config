@@ -1,3 +1,32 @@
+---
+name: agent-bridge
+description: |
+  实现通用的Agent间跨用户协作协议，支持Claude Code与外部AI、内部coach间、跨产品AI的无缝协作。
+  通过AI智能判断和启发式规则，生成适配不同Agent和协作场景的桥接内容。
+
+  协作场景覆盖：
+  - Claude Code ↔ 外部AI（技术协作、专业分析）
+  - Claude Code内部不同coach间传递（情感支持、认知洞察）
+
+  使用场景：检测到"交接给"、"切换到"、"传递给"等协作意图时自动激活
+tools: Read, Write
+parameters:
+  output_directory:
+    type: string
+    description: "桥接文件输出目录"
+    default: "/Users/wangmu/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Vault/handoffs/"
+  detail_level:
+    type: string
+    description: "内容详细程度"
+    default: "standard"
+    enum: ["concise", "standard", "detailed"]
+  collaboration_style:
+    type: string
+    description: "协作风格偏好"
+    default: "professional"
+    enum: ["formal", "friendly", "professional"]
+---
+
 # Agent Bridge Protocol
 
 ## Skill Description
